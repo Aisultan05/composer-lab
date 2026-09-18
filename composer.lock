@@ -4,15 +4,21 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "342fcefa188e54eb641ea38948272f06",
+    "content-hash": "97016afccd161fcd0f8771334aba0b1b",
     "packages": [
         {
             "name": "aisultan/slugger",
-            "version": "dev-main",
+            "version": "v1.0.0",
+            "source": {
+                "type": "git",
+                "url": "git@github.com:Aisultan05/slugger.git",
+                "reference": "5385d081fdfb3b31bcca69e4e8c84a90c320e6c9"
+            },
             "dist": {
-                "type": "path",
-                "url": "packages/slugger",
-                "reference": "a2503d343bf4edc78284894fdb38d49a7be8429a"
+                "type": "zip",
+                "url": "https://api.github.com/repos/Aisultan05/slugger/zipball/5385d081fdfb3b31bcca69e4e8c84a90c320e6c9",
+                "reference": "5385d081fdfb3b31bcca69e4e8c84a90c320e6c9",
+                "shasum": ""
             },
             "require": {
                 "php": ">=8.1"
@@ -32,17 +38,13 @@
                 }
             ],
             "description": "Транслитерация и slug для казахского и русского текста",
-            "transport-options": {
-                "relative": true
-            }
+            "time": "2026-09-18T11:02:03+00:00"
         }
     ],
     "packages-dev": [],
     "aliases": [],
     "minimum-stability": "stable",
-    "stability-flags": {
-        "aisultan/slugger": 20
-    },
+    "stability-flags": {},
     "prefer-stable": false,
     "prefer-lowest": false,
     "platform": {},

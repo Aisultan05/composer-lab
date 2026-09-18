@@ -2,10 +2,19 @@
     "name": "aisultan/composer-lab",
     "type": "project",
     "repositories": [
-        { "type": "path", "url": "packages/slugger" }
+        {
+            "type": "vcs",
+            "url": "git@github.com:Aisultan05/slugger.git",
+            "no-api": true
+        }
     ],
     "require": {
-        "aisultan/slugger": "@dev"
+        "aisultan/slugger": "^1.0"
+    },
+    "config": {
+        "preferred-install": {
+            "aisultan/*": "source"
+        }
     },
     "autoload": {
         "psr-4": {
