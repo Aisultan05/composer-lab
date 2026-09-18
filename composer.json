@@ -1,0 +1,15 @@
+{
+    "name": "aisultan/composer-lab",
+    "type": "project",
+    "repositories": [
+        { "type": "path", "url": "packages/slugger" }
+    ],
+    "require": {
+        "aisultan/slugger": "@dev"
+    },
+    "autoload": {
+        "psr-4": {
+            "App\\": "src/"
+        }
+    }
+}

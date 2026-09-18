@@ -1,0 +1,51 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "342fcefa188e54eb641ea38948272f06",
+    "packages": [
+        {
+            "name": "aisultan/slugger",
+            "version": "dev-main",
+            "dist": {
+                "type": "path",
+                "url": "packages/slugger",
+                "reference": "a2503d343bf4edc78284894fdb38d49a7be8429a"
+            },
+            "require": {
+                "php": ">=8.1"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Aisultan\\Slugger\\": "src/"
+                }
+            },
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Aisultan Aitmagambetuly"
+                }
+            ],
+            "description": "Транслитерация и slug для казахского и русского текста",
+            "transport-options": {
+                "relative": true
+            }
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": {
+        "aisultan/slugger": 20
+    },
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": {},
+    "platform-dev": {},
+    "plugin-api-version": "2.9.0"
+}
